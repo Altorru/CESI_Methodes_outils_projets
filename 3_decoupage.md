@@ -7,12 +7,23 @@ L’équipe projet doit maintenant décomposer le travail afin de mieux planifie
 
 Phases principales du projet (niveau 1) :
 
-- Initialisation du projet
-- Analyse et conception
-- Développement
-- Tests et validation
-- Mise en production
-- Formation et clôture
+- 1 Initialisation du projet
+- 2 Analyse et conception
+  - 2.1 Analyse du besoin
+  - 2.2 Conception
+- 3 Développement
+  - 3.1 Front-end
+  - 3.2 Back-end
+- 4 Tests et validation
+  - 4.1 Tests techniques
+  - 4.2 Tests utilisateur
+- 5 Mise en production
+- 6 Formation et clôture
+  - 6.1 Formation des parties prenantes
+    - 6.1.1 Formation du client
+    - 6.1.2 Formation des utiisateurs avancés
+    - 6.1.3 Formation des utilisateurs lambdas
+  - 6.2 Clôture du projet
 
 À partir de ces six phases principales :
 
@@ -34,3 +45,10 @@ Voici les parties prenantes :
 - Développeur
 - Testeur
 - Client
+
+| Activité                      | Chef de projet | Développeur | Testeur | Client |
+|-------------------------------|----------------|-------------|---------|--------|
+| Rédiger le cahier des charges | A              |             | C       | C      |
+| Développer le site            | I              | R           |         | I      |
+| Réaliser les tests unitaires  | I              | C           | R       |        |
+| Tester la solution            | I              | C           | R       | I      |
