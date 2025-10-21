@@ -7,14 +7,17 @@ Le projet doit être prêt dans 5 mois.
 ### Questions
 
 1. Propose 3 exemples concrets pour le périmètre du projet puis pour le périmètre de la solution
+Périmètre de solution :
+- Guide d'utilisation de la solution pour le client
+- Développement de la solution
+- Déploiement de la solution en production
+- Maintenance et support
 
-- Site vente de produit
- (chef de projet / développement / conception)
-- Déploiement du site (Chef de projet / migration)
+Périmètre du projet :
+- Site vitrine web
+- Fonctionnalités de e-commerce
+- Gestion manuelle des stocks (avec décrémentation auto)
+- Site responsive
 
-- Rendre le site responsive 
-- Interface d'administration
-
-- Documentation pour le client
-- Formationà l'outil CMS
 2. Ajoute 1 élément exclu (hors périmètre).
+- Accès au serveur (SSH, FTP, etc...)

@@ -15,9 +15,6 @@ L’objectif est de développer une application web et mobile “SmartCampus” 
 
 L’application devra être opérationnelle dans 6 mois
 
-https://urlr.me/ny8Ex3
-
-
 ### Ressources 
 
 Équipe projet composée de :
