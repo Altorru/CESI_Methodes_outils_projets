@@ -1,4 +1,6 @@
-public interface Triangle extends Shape {
+public class Triangle implements Shape {
     @Override
-    void draw();
+    public void draw() {
+        System.out.println("Drawing a Triangle");
+    }
 }

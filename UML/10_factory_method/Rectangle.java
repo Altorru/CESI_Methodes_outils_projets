@@ -1,4 +1,6 @@
-public interface Rectangle extends Shape {
+public class Rectangle implements Shape {
     @Override
-    void draw();
+    public void draw() {
+        System.out.println("Drawing a Rectangle");
+    }
 }

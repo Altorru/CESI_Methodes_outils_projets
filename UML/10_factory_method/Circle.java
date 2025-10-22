@@ -1,4 +1,6 @@
-public interface Circle  extends Shape {
+public class Circle implements Shape {
     @Override
-    void draw();
+    public void draw() {
+        System.out.println("Drawing a Circle");
+    }
 }
