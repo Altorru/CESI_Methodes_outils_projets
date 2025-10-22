@@ -8,9 +8,17 @@ public class Main {
         Command fanOn = new FanOnCommand(fan);
         Command fanOff = new FanOffCommand(fan);
 
-        lightOn.execute();
-        fanOn.execute();
-        lightOff.execute();
-        fanOff.execute();
+        Remote remote = new Remote();
+        remote.setCommand(lightOn);
+        remote.pressButton();
+
+        remote.setCommand(fanOn);
+        remote.pressButton();
+
+        remote.setCommand(lightOff);
+        remote.pressButton();
+
+        remote.setCommand(fanOff);
+        remote.pressButton();
     }
 }
