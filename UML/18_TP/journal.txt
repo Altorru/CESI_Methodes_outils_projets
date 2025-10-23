@@ -1,0 +1,24 @@
+Stratégie appliquée : StudentStrategy
+Prix initial : 100.0
+Prix final après réduction : 80.0
+========================================
+Stratégie appliquée : VipStrategy
+Prix initial : 100.0
+Prix final après réduction : 70.0
+========================================
+Stratégie appliquée : StudentStrategy
+Prix initial : 100.0
+Prix final après réduction : 80.0
+========================================
+Stratégie appliquée : VipStrategy
+Prix initial : 100.0
+Prix final après réduction : 70.0
+========================================
+Stratégie appliquée : StudentStrategy
+Prix initial : 100.0
+Prix final après réduction : 80.0
+========================================
+Stratégie appliquée : VipStrategy
+Prix initial : 100.0
+Prix final après réduction : 70.0
+========================================

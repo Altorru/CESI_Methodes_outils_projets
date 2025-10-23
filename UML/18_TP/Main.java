@@ -14,7 +14,9 @@ public class Main {
         // --- NEW METHOD USING OBSERVER PATTERN ---
         CalculateurPrix calculateur = new CalculateurPrix();
         AfficheurConsole afficheur = new AfficheurConsole();
+        JournalFichier journal = new JournalFichier("journal.txt");
         calculateur.attach(afficheur);
+        calculateur.attach(journal);
         calculateur.calculerPrix(100, new StudentStrategy());
         calculateur.calculerPrix(100, new VipStrategy());
     }
