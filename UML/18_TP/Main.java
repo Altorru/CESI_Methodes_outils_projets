@@ -7,8 +7,15 @@ public class Main {
         // ------------------
 
         // --- NEW METHOD USING STRATEGY PATTERN ---
+        // CalculateurPrix calculateur = new CalculateurPrix();
+        // System.out.println("Prix étudiant : " + calculateur.calculerPrix(100, new StudentStrategy()));
+        // System.out.println("Prix VIP : " + calculateur.calculerPrix(100, new VipStrategy()));
+
+        // --- NEW METHOD USING OBSERVER PATTERN ---
         CalculateurPrix calculateur = new CalculateurPrix();
-        System.out.println("Prix étudiant : " + calculateur.calculerPrix(100, new StudentStrategy()));
-        System.out.println("Prix VIP : " + calculateur.calculerPrix(100, new VipStrategy()));
+        AfficheurConsole afficheur = new AfficheurConsole();
+        calculateur.attach(afficheur);
+        calculateur.calculerPrix(100, new StudentStrategy());
+        calculateur.calculerPrix(100, new VipStrategy());
     }
 }
