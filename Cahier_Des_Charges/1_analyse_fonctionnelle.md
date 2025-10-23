@@ -33,6 +33,7 @@ Enfin, l’entreprise s’est fixé un délai maximal de six mois pour publier l
     - Interface claire, UX intuitive
 
 2. Attribuez une valeur perçue (de 1 à 5) et un coût estimé (de 1 à 5) à chaque fonction.
+
 | Fonction                       | Type | Valeur perçue | Coût estimé | Rapport |
 |--------------------------------|------|---------------|-------------|---------|
 | Réserver et payer un cours     | FP   | 5             | 3           | 1.67    |
@@ -41,7 +42,6 @@ Enfin, l’entreprise s’est fixé un délai maximal de six mois pour publier l
 | Notifications et rappels       | FS   | 3             | 4           | 0.75    |
 | Fidélité et points             | FS   | 3             | 5           | 0.6     |
 | Espace Pro : Planning          | FS   | 2             | 4           | 0.5     |
-| Statistiques                   | FS   | 2             | 4           | 0.5     |
 | RGPD                           | C    | 4             | 5           | 0.8     |
 | Sécurité forte                 | C    | 4             | 5           | 0.8     |
 | Interface claire, UX intuitive | C    | 4             | 3           | 1.33    |
